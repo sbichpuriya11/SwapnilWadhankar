@@ -1,0 +1,200 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Full Screen Background*/
+.bg {
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    color: white;
+    background-color: #EDEDED;
+    /* background-image:url('../unsplash.jpg');*/
+
+
+}
+
+/*Nav bar */
+.background {
+    background-color: #133467;
+}
+img{
+    -webkit-user-drag: none;
+}
+.background button div {
+    border: 1px solid white;
+    color: white !important;
+    outline: none;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.container-fluid nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.collapse form .btn-outline-success {
+    color: white;
+    border: 1px solid white;
+}
+
+.collapse form .btn-outline-success:hover {
+    background-color: red;
+    border: 1px solid red;
+    transition: 0.4s ease-in-out;
+}
+/*Current City temperature*/
+#city-temperature {
+    background-color: #425C85;
+    padding: 10px 40px 10px 0px;
+}
+/*Today , hourly 5-day menubar*/
+.container-fluid ul a {
+    color: white;
+    font-family: montserrat, 'sans-serrif';
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+/*Modal switch*/
+
+
+
+.section {
+    position: relative;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.over-hide {
+    overflow: hidden;
+}
+.z-bigger {
+    z-index: 100 !important;
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+	position: absolute;
+	left: -9999px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+
+
+
+
+.checkbox-tools:checked + label,
+.checkbox-tools:not(:checked) + label{
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	width: 60px;
+  
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: var(--white);
+}
+.checkbox-tools:not(:checked) + label{
+	background-color:white;
+  color:black;
+  border-radius: 50%;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.checkbox-tools:checked + label::before,
+.checkbox-tools:not(:checked) + label::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color:#3C8ED2;
+	z-index: -1;
+}
+
+
+
+/*Country List Modal*/
+.accordion div .row a
+    {
+      text-decoration:none; 
+      color:#2F4F4F;
+      font-size: small; 
+    }
+.accordion div .row a:hover
+    {
+      text-decoration:none; 
+      color:dodgerblue;
+      font-size: small; 
+    }
+
+
+/*footer Section*/
+#footer{
+    padding:10px;
+    background-color:#133467;
+}
+#footer a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+#footer #contact i{
+    font-size:15px;
+    padding:10px;
+    display: inline-block;
+    width:35px;
+    border-radius:20px;
+    margin-top:10px;
+    border:1px solid white;
+}
+#footer .list-unstyled li a {
+    font-size: 15px;
+}
+#footer .list-unstyled li a:hover{
+    color:orange;
+}
+
+#footer #end-footer ul{
+    list-style: none;
+}
+#footer #end-footer li{
+    display: inline;
+}
+#footer #end-footer i{
+    display: inline-block;
+    width:40px;
+    font-size:20px;
+    padding:10px;
+    margin-left:30px;
+    text-align: center;
+}
+
+#footer #end-footer a:hover{
+    color:red;
+    transition: 0.4s ease;
+}
